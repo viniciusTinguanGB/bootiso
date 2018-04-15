@@ -1,3 +1,10 @@
+# v2.6.0
+
+- securely handle unmounting of target device before altering data, exit when fails
+- added `-f`, `--format` option to format USB device and quit
+- added `-L`, `--label` option to chose a label
+- set FAT32-LBA by default instead of FAT32
+
 # v2.5.2
 
 - documentation improvements + call for help from the community
